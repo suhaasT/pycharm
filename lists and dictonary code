@@ -1,0 +1,24 @@
+#lists of sports
+sport=["soccer","football","tennis"]
+print("The current list of sports are:",sport)
+#inserting new sport
+new_item= input("enter a sport to add in the list:")
+sport.insert(2,new_item)
+print(sport)
+#removing tennis
+sport.remove("tennis")
+print(sport)
+sport.pop(1)
+print("#####################dictonary##############")
+colors={1:'red',2:'orange'}
+print(colors)
+#append dictonary
+colors[3]='yellow'
+colors[4]="green"
+colors2={5:"blue"}
+colors.update(colors2)
+colors.pop(2)
+print(colors)
+colors.clear()
+print(colors)
+
