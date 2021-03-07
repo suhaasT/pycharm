@@ -1,0 +1,9 @@
+print("MADLIBS")
+
+noun=input("enter a noun:")
+verb=input("enter a verb:")
+adj=input("enter a adjective:")
+print("Your MADLIB:")
+print("You seat next to a",noun )
+print("you",verb,"at the park")
+print("you are really",adj)
